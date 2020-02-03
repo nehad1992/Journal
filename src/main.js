@@ -1,5 +1,10 @@
 // User Interface
+
+import './bootstrap.css';
+import './styles.css';
 import{Entry} from './journal.js';
+
+
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
